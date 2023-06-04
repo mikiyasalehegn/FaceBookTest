@@ -6,7 +6,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService
-
+# this is the collection of basic selenium codes
 
 class BasePage:
     _driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
